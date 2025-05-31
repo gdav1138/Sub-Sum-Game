@@ -1,0 +1,8 @@
+Welcome to the Sub Sum Problem Game!
+
+In this game, you will be tasked with adding items randomly given to you into a bag. These items have a
+particular value to them as well as a weight value. Your goal is to load as many items as you can into the bag
+before it fills up. If the total value of your items outweighs that of your opponent, you win! You will be given the
+choice to select RandomBot or GreedyBot as your opponent. RandomBot will randomly select an available item of theirs
+into the bag, regardless of thought to how much it weighs or how valuable it is. GreedyBot will ALWAYS try to add the
+highest value item to the bag. See if you can challenge both bots and beat them!

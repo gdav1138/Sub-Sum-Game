@@ -1,0 +1,39 @@
+name: Golden Chalice
+value: 120
+weight: 3
+
+name: Ancient Scroll
+value: 80
+weight: 1
+
+name: Crystal Orb
+value: 100
+weight: 4
+
+name: Dragon Scale
+value: 150
+weight: 2
+
+name: Iron Sword
+value: 90
+weight: 7
+
+name: Diamond Ring
+value: 200
+weight: 1
+
+name: Bronze Shield
+value: 110
+weight: 8
+
+name: Magic Pendant
+value: 130
+weight: 2
+
+name: Silver Crown
+value: 180
+weight: 5
+
+name: Ancient Coin
+value: 95
+weight: 1
