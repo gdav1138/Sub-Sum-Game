@@ -146,4 +146,4 @@ def start_game(player, bot):
             print(player.get_value(), "\n")
         if choice == '3':
             player.passed()
-
+            bot_play(bot, bag)
