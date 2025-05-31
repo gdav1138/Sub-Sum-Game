@@ -78,15 +78,19 @@ def item_select(player, bag):
         return
     else:
         item_choice = int(item_choice) - 1
-        item = player.inventory[item_choice]
+        try:
+            item = player.inventory[item_choice]
 
-    if (int(item.get_weight()) + bag.get_weight()) > bag.max_weight:
-        print("That item is too big to fit in the bag. Please choose another item.\n")
-        item_select(player, bag)
-    else:
-        bag.add_item(item)
-        player.add_value(item)
-        player.inventory.remove(item)
+            if (int(item.get_weight()) + bag.get_weight()) > bag.max_weight:
+                print("That item is too big to fit in the bag. Please choose another item.\n")
+                item_select(player, bag)
+            else:
+                bag.add_item(item)
+                player.add_value(item)
+                player.inventory.remove(item)
+        except:
+            print("Invalid selection!\n")
+            item_select(player, bag)
 
 
 def loading_pause():
